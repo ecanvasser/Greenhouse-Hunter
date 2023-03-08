@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
-
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
-  return <main className="text-2xl">Hello World</main>;
+export default function HomePage() {
+  return <main className="text-2xl">HomePage</main>;
 }
